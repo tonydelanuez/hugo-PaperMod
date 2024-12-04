@@ -1,0 +1,67 @@
+.micro-post {
+    margin-bottom: 1.5rem;
+}
+
+.micro-post-card {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem;
+    transition: background 0.2s ease;
+}
+
+.micro-post-card:hover {
+    background: var(--entry-hover);
+}
+
+.micro-post-title {
+    margin-bottom: 0.75rem;
+}
+
+.micro-post-title h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.micro-post-content {
+    margin-bottom: 0.75rem;
+    line-height: 1.5;
+}
+
+/* New styles for links inside micro-post content */
+.micro-post-content a {
+    color: var(--primary);
+    text-decoration: none;
+    border-bottom: 1px solid var(--primary);
+}
+
+.micro-post-content a:hover {
+    border-bottom: 2px solid var(--primary);
+}
+
+.micro-post-meta {
+    font-size: 0.9rem;
+    color: var(--secondary);
+    border-top: 1px solid var(--border);
+    padding-top: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.micro-post-date {
+    text-decoration: none;
+}
+
+.micro-post-date:hover {
+    text-decoration: underline;
+}
+
+.year-group {
+    margin-bottom: 3rem;
+}
+
+.year-group h2 {
+    margin-bottom: 1.5rem;
+    color: var(--secondary);
+    font-size: 1.2rem;
+}
