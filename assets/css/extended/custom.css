@@ -40,6 +40,15 @@
     border-bottom: 2px solid var(--primary);
 }
 
+.micro-post-content img {
+    display: block;
+    margin: 0 auto;
+    max-height: 600px;
+    object-fit: contain;
+    padding: 1rem 0;
+
+}
+
 .micro-post-meta {
     font-size: 0.9rem;
     color: var(--secondary);
